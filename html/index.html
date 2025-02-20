@@ -1,1 +1,145 @@
-<h1>Hola</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misterio del Amuleto</title>
+</head>
+<body>
+    <header>
+        <h1>El Misterio del Amuleto Perdido</h1>
+    </header>
+
+    <article>
+        <h2>¿Qué está pasando?</h2>
+        <p>Mientras caminas por un sendero olvidado en el bosque, encuentras un amuleto antiguo cubierto de símbolos extraños. 
+        Al sostenerlo, el aire se vuelve denso y el bosque parece cobrar vida. Un escalofrío recorre tu espalda. 
+        Sientes que debes tomar una decisión pronto.</p>
+        <p>A tu alrededor, dos caminos se presentan: uno se adentra más en el bosque, oscuro y lleno de sombras. 
+        El otro, apenas visible entre los árboles, parece llevar a una ciudad en la distancia. Debes decidir tu destino...</p>
+    </article>
+
+    <figure>
+        <img src="assets/amuleto_brillante.jpg" alt="Un antiguo amuleto brillante">
+        <figcaption>Amuleto que te encuentras en el bosque</figcaption>
+    </figure>
+
+    <nav>
+        <h2>¿Hacia dónde quieres ir?</h2>
+        <ol>
+            <li><a href="paginas/bosque.html">Explorar el bosque profundo</a></li>
+            <li><a href="paginas/ciudad.html">Seguir el sendero hacia la ciudad</a></li>
+        </ol>
+    </nav>
+
+    <section>
+        <h2>Tabla de Objetos Misteriosos</h2>
+        <table border="">
+            <caption>Aquí están los elementos que podrías necesitar en tu aventura.</caption>
+            <thead>
+                <tr>
+                    <th>Objetos</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amuleto</td>
+                    <td>Brilla con una luz tenue</td>
+                </tr>
+                <tr>
+                    <td>Llave dorada</td>
+                    <td>Parece importante, pero está oxidada</td>
+                </tr>
+                <tr>
+                    <td>Pergamino</td>
+                    <td>Las letras están borrosas, pero parecen un hechizo</td>
+                </tr>
+                <tr>
+                    <td>Estatua pequeña</td>
+                    <td>Representa a una figura encapuchada</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">¿Habrá más objetos ocultos en la historia?</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section>
+        <h2>¿Qué harías tú?</h2>
+        <p>Cuéntanos qué camino elegirías y por qué.</p>
+
+        <form>
+            <fieldset>
+                <legend>Información Personal</legend>
+
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Experiencia</legend>
+                <label for="experiencia">Cuéntanos tu decisión y por qué la tomaste:</label>
+                <textarea id="experiencia" name="experiencia" rows="2"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferencia de Contacto</legend>
+                
+                <p>¿Cómo prefieres que te contactemos?</p>
+                <input type="radio" id="contacto_email" name="contacto" value="email">
+                <label for="contacto_email">Email</label>
+
+                <input type="radio" id="contacto_telefono" name="contacto" value="telefono">
+                <label for="contacto_telefono">Teléfono</label>
+
+                <br>
+
+                <input type="checkbox" id="suscripcion" name="suscripcion">
+                <label for="suscripcion">Suscribirme a más historias interactivas.</label>
+            </fieldset>
+
+            <button type="submit">Enviar mi elección</button>
+        </form>
+    </section>
+
+    <section>
+        <details>
+            <summary>Algo extraño ocurre...</summary>
+            <p>Sientes que algo te observa en la oscuridad. ¿Quieres saber más?</p>
+            <p>Escuchas un susurro en el viento: "No sigas el camino de la luna…".</p>
+        </details>
+    </section>
+
+    <section>
+        <h2>Explora más allá</h2>
+        <p>Escucha los sonidos del bosque y siente la atmósfera de la historia.</p>
+
+        <figure>
+            <figcaption>Un sonido de hojas crujientes y viento nocturno.</figcaption>
+            <audio controls>
+                <source src="assets/bosque_nocturno.mp3" type="audio/mpeg">
+                Tu pc es popo
+            </audio>
+        </figure>
+
+        <figure>
+            <figcaption>Un murmullo inquietante que parece surgir del viento.</figcaption>
+            <audio controls>
+                <source src="assets/susurros_misteriosos.mp3" type="audio/mpeg">
+                Tu pc es popo
+            </audio>
+        </figure>
+    </section>
+
+    <footer>
+        <p>© 2025 - Historia creada por Luis Gonzalez</p>
+    </footer>
+</body>
+</html>
